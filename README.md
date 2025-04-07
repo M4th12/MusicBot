@@ -1,4 +1,4 @@
-<img align="right" src="https://i.imgur.com/zrE80HY.png" height="200" width="200">
+<img align="right" src="https://play-lh.googleusercontent.com/76AjYITcB0dI0sFqdQjNgXQxRMlDIswbp0BAU_O5Oob-73b6cqKggVlAiNXQAW5Bl1g=w600-h300-pc0xffffff-pd" height="75" width="150">
 
 # An unofficial fork of JMusicBot
 
