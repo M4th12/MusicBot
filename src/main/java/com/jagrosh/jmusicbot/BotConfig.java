@@ -73,6 +73,7 @@ public class BotConfig
             
             // set values
             token = config.getString("token");
+            /*spotitoken= config.getString("spotitoken");*/
             prefix = config.getString("prefix");
             altprefix = config.getString("altprefix");
             helpWord = config.getString("help");
@@ -120,6 +121,15 @@ public class BotConfig
                     write = true;
                 }
             }
+            
+            /*if(spotitoken==null || spotitoken.isEmpty() || spotitoken.equalsIgnoreCase("SPOTIFY_TOKEN_HERE"))
+            {
+                token = prompt.prompt("Please provide a Spotify bot token, if you want use Spotify song for searching."
+                        + "\nInstructions for obtaining a token can be found here:"
+                        + "\nhttps://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token."
+                        + "\nBot Token: ");
+                
+            }*/
             
             // validate bot owner
             if(owner<=0)
@@ -237,6 +247,11 @@ public class BotConfig
     {
         return token;
     }
+    
+    /*public String getSpotitoken()
+    {
+        return spotitoken;
+    }*/
     
     public double getSkipRatio()
     {
